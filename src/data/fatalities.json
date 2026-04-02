@@ -48,14 +48,16 @@
     "injuryCrashReduction": 0.85,
     "pedestrianInjuryReduction": 0.92,
     "intersectionCrashReduction": 0.96,
-    "conservativeVMTShare": 0.01,
+    "conservativeVMTShare": 0.015,
+    "waymoRideshareShare": 0.22,
+    "waymoRideshareShareSource": "Waymo reached ~22% of the San Francisco rideshare market by end of 2024",
     "milesAnalyzed": "7.1 million",
     "rideHailVMTShare": {
       "dc": 0.069,
       "sf": 0.128,
       "source": "Fehr & Peers (2019)",
       "sourceUrl": "https://www.prnewswire.com/news-releases/new-study-finds-over-97-of-vehicle-miles-traveled-in-major-us-cities-are-completed-by-personal-and-commercial-vehicles-300896095.html",
-      "note": "Ride-hail share of city-core VMT. The 1% effective VMT share is a conservative early-deployment placeholder to avoid overstating near-term impact."
+      "note": "Ride-hail share of city-core VMT. The 1.5% effective VMT share is derived from DC ride-hail VMT (6.9%) × observed Waymo rideshare penetration in SF (~22%)."
     },
     "rideHailSafetyComparison": {
       "waymo": {

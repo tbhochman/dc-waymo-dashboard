@@ -69,12 +69,12 @@ const conservativePreventable = conservativePreventableRaw !== null
             <span class="stat-value highlight">{annualPreventable}</span>
           </div>
           <div class="stat-row">
-            <span class="stat-label">Preventable deaths/year (1% effective VMT share)</span>
+            <span class="stat-label">Preventable deaths/year (1.5% effective VMT share)</span>
             <span class="stat-value highlight">{conservativePreventable}</span>
           </div>
           <p style="font-size: 0.75rem; color: var(--text-dim); margin-top: 8px;">
-            1% effective VMT share is a conservative early-deployment placeholder.
-            DC ride-hail is currently ~7% of city-core VMT (<a href={waymo.rideHailVMTShare.sourceUrl} target="_blank" rel="noopener">Fehr &amp; Peers</a>).
+            1.5% effective VMT share = DC ride-hail VMT (~6.9%, <a href={waymo.rideHailVMTShare.sourceUrl} target="_blank" rel="noopener">Fehr &amp; Peers</a>)
+            &times; observed Waymo rideshare penetration in SF (~22%).
           </p>
         </div>
 
