@@ -9,7 +9,10 @@ const rideHailSafety = waymo.rideHailSafetyComparison;
 // Calculate preventable deaths per year (using most recent full year: 2024)
 const recentFullYear = years.find(y => y.year === 2024);
 const annualPreventable = recentFullYear ? (recentFullYear.deaths * waymo.injuryCrashReduction).toFixed(0) : '--';
-const conservativePreventable = recentFullYear ? (recentFullYear.deaths * waymo.injuryCrashReduction * waymo.conservativeVMTShare).toFixed(0) : '--';
+const conservativePreventableRaw = recentFullYear ? recentFullYear.deaths * waymo.injuryCrashReduction * waymo.conservativeVMTShare : null;
+const conservativePreventable = conservativePreventableRaw !== null
+  ? (conservativePreventableRaw < 1 ? conservativePreventableRaw.toFixed(1) : conservativePreventableRaw.toFixed(0))
+  : '--';
 ---
 
 <section class="section">
@@ -66,12 +69,12 @@ const conservativePreventable = recentFullYear ? (recentFullYear.deaths * waymo.
             <span class="stat-value highlight">{annualPreventable}</span>
           </div>
           <div class="stat-row">
-            <span class="stat-label">Preventable deaths/year (10% VMT share)</span>
+            <span class="stat-label">Preventable deaths/year (1% effective VMT share)</span>
             <span class="stat-value highlight">{conservativePreventable}</span>
           </div>
           <p style="font-size: 0.75rem; color: var(--text-dim); margin-top: 8px;">
+            1% effective VMT share is a conservative early-deployment placeholder.
             DC ride-hail is currently ~7% of city-core VMT (<a href={waymo.rideHailVMTShare.sourceUrl} target="_blank" rel="noopener">Fehr &amp; Peers</a>).
-            10% assumes AV ride-hail captures most of the existing market plus modest growth.
           </p>
         </div>
 

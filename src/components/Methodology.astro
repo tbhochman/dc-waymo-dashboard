@@ -27,8 +27,9 @@ const waymo = data.waymoSafety;
 
       <h3>Estimate methodology</h3>
       <p>
-        The headline figure applies an 85% any-injury-reported crash reduction to 10%
-        of vehicle miles traveled. The 85% comes from
+        The headline figure applies an 85% any-injury-reported crash reduction to 1%
+        of vehicle miles traveled — a conservative early-deployment placeholder
+        intended to avoid overstating near-term impact. The 85% comes from
         <a href="https://doi.org/10.1080/15389588.2024.2380786" target="_blank" rel="noopener">Kusano et al. (2024)</a>,
         which analyzed 7.1M rider-only miles. A subsequent
         <a href="https://doi.org/10.1080/15389588.2025.2499887" target="_blank" rel="noopener">2025 study</a>
@@ -36,10 +37,11 @@ const waymo = data.waymoSafety;
         and 85% fewer suspected serious injury+ crashes (95% CI: 39–99%).
       </p>
       <p>
-        The 10% VMT share is a conservative proxy for AV ride-hail market share.
-        Ride-hail currently accounts for ~7% of DC's city-core VMT
-        (<a href="https://www.prnewswire.com/news-releases/new-study-finds-over-97-of-vehicle-miles-traveled-in-major-us-cities-are-completed-by-personal-and-commercial-vehicles-300896095.html" target="_blank" rel="noopener">Fehr &amp; Peers, 2019</a>);
-        the 10% figure assumes AV ride-hail captures most of that market plus modest growth.
+        The 1% effective VMT share is a simple placeholder for early deployment
+        and is intended to avoid overstating near-term impact. For context,
+        ride-hail currently accounts for ~7% of DC's city-core VMT
+        (<a href="https://www.prnewswire.com/news-releases/new-study-finds-over-97-of-vehicle-miles-traveled-in-major-us-cities-are-completed-by-personal-and-commercial-vehicles-300896095.html" target="_blank" rel="noopener">Fehr &amp; Peers, 2019</a>),
+        so the headline assumption is well below the existing ride-hail market.
       </p>
 
       <h3>Key assumptions &amp; limitations</h3>
@@ -53,10 +55,11 @@ const waymo = data.waymoSafety;
           reductions may be higher or lower than the overall injury crash reduction.
         </li>
         <li>
-          The 10% VMT share is based on Fehr &amp; Peers data showing DC ride-hail at
-          ~7% of city-core VMT (2019). Actual AV deployment would ramp up gradually,
-          not begin at 10% on day one. For context, San Francisco's ride-hail VMT share
-          is ~13% — the highest of any major US city.
+          The 1% effective VMT share is a conservative early-deployment placeholder,
+          well below DC's current ride-hail share of ~7% of city-core VMT
+          (Fehr &amp; Peers, 2019). Actual AV deployment would ramp up gradually;
+          this figure is deliberately low to avoid overstating near-term impact.
+          For context, San Francisco's ride-hail VMT share is ~13%.
         </li>
         <li>
           These figures represent potential lives saved, not certainties. AV technology

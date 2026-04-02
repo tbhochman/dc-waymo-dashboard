@@ -48,14 +48,14 @@
     "injuryCrashReduction": 0.85,
     "pedestrianInjuryReduction": 0.92,
     "intersectionCrashReduction": 0.96,
-    "conservativeVMTShare": 0.1,
+    "conservativeVMTShare": 0.01,
     "milesAnalyzed": "7.1 million",
     "rideHailVMTShare": {
       "dc": 0.069,
       "sf": 0.128,
       "source": "Fehr & Peers (2019)",
       "sourceUrl": "https://www.prnewswire.com/news-releases/new-study-finds-over-97-of-vehicle-miles-traveled-in-major-us-cities-are-completed-by-personal-and-commercial-vehicles-300896095.html",
-      "note": "Ride-hail share of city-core VMT. Conservative estimate of 10% assumes AV ride-hail captures most of existing ride-hail market plus modest growth."
+      "note": "Ride-hail share of city-core VMT. The 1% effective VMT share is a conservative early-deployment placeholder to avoid overstating near-term impact."
     },
     "rideHailSafetyComparison": {
       "waymo": {
