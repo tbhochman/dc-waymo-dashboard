@@ -2,8 +2,6 @@
 import data from '../data/fatalities.json';
 
 const permits = data.permitTimeline;
-const causes = data.dcFatalities.causeBreakdown;
-
 // Time axis: Jan 2023 to Mar 2026 = 38 months
 const axisStart = new Date(2023, 0, 1).getTime();
 const axisEnd = new Date(2026, 2, 1).getTime();
@@ -68,29 +66,6 @@ const yearMarks = axisYears.map(y => ({
         </div>
       </div>
 
-      <div class="data-panel">
-        <h3>DC Fatalities by Cause</h3>
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">
-          Factors that autonomous vehicles eliminate
-        </p>
-        <div class="cause-grid">
-          <div class="cause-item">
-            <div class="cause-pct">{(causes.drunkDriving * 100).toFixed(0)}%</div>
-            <div class="cause-name">Drunk driving</div>
-            <div class="cause-note">AVs don't drink</div>
-          </div>
-          <div class="cause-item">
-            <div class="cause-pct">{(causes.speeding * 100).toFixed(0)}%</div>
-            <div class="cause-name">Speeding</div>
-            <div class="cause-note">AVs obey speed limits</div>
-          </div>
-          <div class="cause-item">
-            <div class="cause-pct">{(causes.distraction * 100).toFixed(0)}%</div>
-            <div class="cause-name">Distraction</div>
-            <div class="cause-note">AVs don't text</div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
