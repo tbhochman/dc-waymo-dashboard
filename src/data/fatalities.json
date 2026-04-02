@@ -219,6 +219,11 @@
       "name": "Kusano et al. (2025) — 56.7M Miles",
       "description": "Updated peer-reviewed study: 85% fewer suspected serious injury+ crashes over 56.7M Waymo miles",
       "url": "https://doi.org/10.1080/15389588.2025.2499887"
+    },
+    {
+      "name": "YipitData / App Economy Insights — Waymo SF Market Share",
+      "description": "Waymo reached ~22% of the San Francisco rideshare market by end of 2024 (YipitData via a16z)",
+      "url": "https://www.appeconomyinsights.com/p/waymo-rideshare-revolution"
     }
   ]
 }

@@ -19,7 +19,7 @@ const waymo = data.waymoSafety;
       </p>
       <p>
         DC fatality data comes from MPD / Vision Zero crash reports: 2023 (52 deaths),
-        2024 (50 deaths), 2025 (25, NSC estimate), 2026 (25, projected at the 2025 rate).
+        2024 (52 deaths), 2025 (25, NSC estimate), 2026 (32, projected from 8 YTD).
         Note: NHTSA FARS figures for DC differ slightly due to the federal 30-day rule
         and different inclusion criteria. Deaths are interpolated linearly within each
         year to produce a real-time estimate.
@@ -41,7 +41,7 @@ const waymo = data.waymoSafety;
         traveled (about 6.9%,
         <a href="https://www.prnewswire.com/news-releases/new-study-finds-over-97-of-vehicle-miles-traveled-in-major-us-cities-are-completed-by-personal-and-commercial-vehicles-300896095.html" target="_blank" rel="noopener">Fehr &amp; Peers, 2019</a>)
         by a benchmark Waymo share of the rideshare market (about 22%, based on
-        San Francisco at end of 2024).
+        <a href="https://www.appeconomyinsights.com/p/waymo-rideshare-revolution" target="_blank" rel="noopener">San Francisco at end of 2024</a>; data from YipitData).
       </p>
 
       <h3>Key assumptions &amp; limitations</h3>
@@ -57,7 +57,8 @@ const waymo = data.waymoSafety;
         <li>
           The 1.5% effective VMT share is derived from DC ride-hail VMT (~6.9%,
           Fehr &amp; Peers 2019) multiplied by observed Waymo rideshare penetration
-          in San Francisco (~22% by end of 2024).
+          in San Francisco (~22% by end of 2024,
+          <a href="https://www.appeconomyinsights.com/p/waymo-rideshare-revolution" target="_blank" rel="noopener">YipitData</a>).
         </li>
         <li>
           These figures represent potential lives saved, not certainties. AV technology
