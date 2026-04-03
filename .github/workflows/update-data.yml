@@ -1,9 +1,9 @@
-name: Weekly Data Update
+name: Daily Data Update
 
 on:
   schedule:
-    # Every Monday at 9am ET (14:00 UTC)
-    - cron: '0 14 * * 1'
+    # Every day at 9am ET (14:00 UTC)
+    - cron: '0 14 * * *'
   workflow_dispatch:
 
 permissions:
