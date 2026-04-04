@@ -31,8 +31,8 @@
       },
       {
         "year": 2026,
-        "deaths": 24,
-        "note": "Projected from 8 YTD"
+        "deaths": 27,
+        "note": "Projected from 9 YTD"
       }
     ],
     "fatalitySource": "DC MPD / Vision Zero crash data",
@@ -176,7 +176,7 @@
       "date": "Apr 2026",
       "event": "Still in regulatory limbo",
       "detail": "No AV ride-hail service permitted in DC",
-      "cumulativeDeaths": 137
+      "cumulativeDeaths": 138
     }
   ],
   "sources": [
