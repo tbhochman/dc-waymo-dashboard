@@ -31,7 +31,7 @@
       },
       {
         "year": 2026,
-        "deaths": 39,
+        "deaths": 31,
         "note": "Projected from 13 YTD"
       }
     ],
@@ -130,7 +130,7 @@
       "city": "Washington, DC",
       "testStart": "2024-04",
       "commercialLaunch": null,
-      "months": 24,
+      "months": 25,
       "status": "waiting",
       "note": "Testing since Apr 2024 — still no commercial permit"
     }
@@ -173,7 +173,7 @@
       "cumulativeDeaths": 129
     },
     {
-      "date": "Apr 2026",
+      "date": "May 2026",
       "event": "Still in regulatory limbo",
       "detail": "No AV ride-hail service permitted in DC",
       "cumulativeDeaths": 142
