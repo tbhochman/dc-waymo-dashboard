@@ -177,6 +177,12 @@
       "event": "Allen introduces AV Deployment Authorization Act",
       "detail": "After months of delay, Allen reverses course and introduces enabling legislation: \"We didn't need to be the first city to bring driverless cars to our streets, but I don't want us to be the last.\"",
       "cumulativeDeaths": 141
+    },
+    {
+      "date": "May 1, 2026",
+      "event": "Awaiting Council action",
+      "detail": "Bill introduced but not yet advanced — no committee hearing, markup, or vote scheduled. Every week of delay adds to the toll.",
+      "cumulativeDeaths": 142
     }
   ],
   "sources": [
