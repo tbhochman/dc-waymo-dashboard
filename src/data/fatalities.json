@@ -173,10 +173,10 @@
       "cumulativeDeaths": 129
     },
     {
-      "date": "May 2026",
-      "event": "Still in regulatory limbo",
-      "detail": "No AV ride-hail service permitted in DC",
-      "cumulativeDeaths": 142
+      "date": "Apr 23, 2026",
+      "event": "Allen introduces AV Deployment Authorization Act",
+      "detail": "After months of delay, Allen reverses course and introduces enabling legislation: \"We didn't need to be the first city to bring driverless cars to our streets, but I don't want us to be the last.\"",
+      "cumulativeDeaths": 141
     }
   ],
   "sources": [
@@ -209,6 +209,11 @@
       "name": "B26-0323 — Autonomous Vehicle Deployment Act",
       "description": "Proposed DC legislation to permit AV ride-hail deployment",
       "url": "https://lims.dccouncil.gov/Legislation/B26-0323"
+    },
+    {
+      "name": "Allen — AV Deployment Authorization Amendment Act of 2026",
+      "description": "Councilmember Allen's bill (introduced April 23, 2026) authorizing commercial AV rideshare deployment in DC, with ward-equity service requirements, liability rules, and a VMT fee funding WMATA and workforce programs",
+      "url": "https://www.charlesallenward6.com/councilmember_allen_to_introduce_legislation_allowing_autonomous_vehicles_to_operate_in_dc"
     },
     {
       "name": "Fehr & Peers Ride-Hail VMT Study (2019)",
