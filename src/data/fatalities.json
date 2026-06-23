@@ -31,8 +31,8 @@
       },
       {
         "year": 2026,
-        "deaths": 30,
-        "note": "Projected from 15 YTD"
+        "deaths": 32,
+        "note": "Projected from 16 YTD"
       }
     ],
     "fatalitySource": "DC MPD / Vision Zero crash data",
@@ -182,7 +182,7 @@
       "date": "Jun 2026",
       "event": "Awaiting Council action",
       "detail": "Bill introduced but not yet advanced — no committee hearing, markup, or vote scheduled. Every week of delay adds to the toll.",
-      "cumulativeDeaths": 144
+      "cumulativeDeaths": 145
     }
   ],
   "sources": [
