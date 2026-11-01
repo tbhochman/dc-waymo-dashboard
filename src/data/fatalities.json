@@ -31,7 +31,7 @@
       },
       {
         "year": 2026,
-        "deaths": 37,
+        "deaths": 34,
         "note": "Projected from 31 YTD"
       }
     ],
@@ -130,7 +130,7 @@
       "city": "Washington, DC",
       "testStart": "2024-04",
       "commercialLaunch": null,
-      "months": 30,
+      "months": 31,
       "status": "waiting",
       "note": "Testing since Apr 2024 — still no commercial permit"
     }
@@ -179,7 +179,7 @@
       "cumulativeDeaths": 141
     },
     {
-      "date": "Oct 2026",
+      "date": "Nov 2026",
       "event": "Awaiting Council action",
       "detail": "Bill introduced but not yet advanced — no committee hearing, markup, or vote scheduled. Every week of delay adds to the toll.",
       "cumulativeDeaths": 160
